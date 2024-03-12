@@ -18,7 +18,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
     border:2px solid hsl(217, 16%, 45%);
-    padding: 0rem 0rem;
+    padding: 0rem 2rem;
+    margin: 5rem 0rem;
+    border-radius: 1rem;
 }
 
 #textOptions{
@@ -36,6 +38,13 @@ body{
     background-color: white;
     margin: 10px;
     padding: 2rem;
+    border-radius: 1rem;
+}
+#score{
+
+}
+#number{
+    
 }
 
 .pieces {
@@ -69,4 +78,22 @@ body{
     padding: 2rem;
     border-radius: 50%;
     border: 1rem solid;
+
+}
+
+#paper{
+    border-color: hsl(230, 89%, 65%);
+    box-shadow: 1px 10px  hsl(230, 89%, 40%), inset 0px 10px 1px 0px hsla(0, 0%, 0%, 0.1);
+
+}
+#scissors{
+    border-color:  hsl(40, 84%, 53%);
+    box-shadow: 1px 10px hsl(39, 89%, 40%), inset 0px 10px 1px 0px hsla(0, 0%, 0%, 0.1);
+
+
+}#rock{
+    border-color: hsl(349, 70%, 56%);
+    box-shadow: 1px 10px  hsl(349, 71%, 40%), inset 0px 10px 1px 0px hsla(0, 0%, 0%, 0.1);
+
+
 }
