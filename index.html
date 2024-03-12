@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="styles.css">
   <script src="script.js" defer></script>
   <title>Frontend Mentor | Rock, Paper, Scissors</title>
-
+</head>
+<body>
   <section class="gameKeep">
     <div id="textOptions">
       <p>ROCK</p>
@@ -20,26 +20,18 @@
       <p id="number">0</p>
     </div>
   </section>
-  <section class="pieces">
+  <section id="pieces">
     <div class="split">
       <img src="images/icon-paper.svg" alt="paper" class="circle" id="paper">
       <img src="images/icon-scissors.svg" alt="Scissors" class="circle" id="scissors">
     </div>
     <div class="bottom">
-    <img src="images/icon-rock.svg" alt="Rock" class="circle" id="rock">
+      <img src="images/icon-rock.svg" alt="Rock" class="circle" id="rock">
     </div>
   </section>
-
-
-
-
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+  <section id="piecesTwo">
+    <img class="circle" id="userPick">
+    <img class="circle" id="cpuPick">
+  </section>
 </body>
 </html>

@@ -47,7 +47,7 @@ body{
     
 }
 
-.pieces {
+#pieces {
     background-image: url('./images/bg-triangle.svg');
     background-position: center;
     background-repeat: no-repeat;
@@ -59,7 +59,14 @@ body{
     flex-direction: column;
     justify-content: flex-end;
 }
-
+#piecesTwo{
+    aspect-ratio: 3;
+    min-width: 400px;
+    padding: 1rem !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .split{
     display: flex;
     justify-content: space-between;
@@ -75,7 +82,7 @@ body{
 
 .circle{
     background-color: white;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 50%;
     border: 1rem solid;
 
