@@ -14,10 +14,10 @@ function cpu() {
 }
 
 function hidePieces() {
-    pieces.style.display = 'none';
+    pieces.style.display = 'flex';
     piecesTwo.style.display = 'none';
 }
-
+hidePieces()
 function showPiecesTwo() {
     pieces.style.display = 'none';
     piecesTwo.style.display = 'flex';
@@ -115,7 +115,7 @@ function gamePlay(playerChoice) {
     setTimeout(() => {
         showPiecesTwo();
         cpuPick.src = `images/icon-${computerChoice}.svg`;
-    }, 1000);
+    }, 0);
     setTimeout(() => {
         showPiece();
     }, 4000);
@@ -147,5 +147,3 @@ scissorsElement.addEventListener('click', function() {
     number.innerHTML = score;
 
 });
-
-console.log(score)
