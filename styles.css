@@ -1,0 +1,72 @@
+body{
+    background: radial-gradient(ellipse at top,hsl(214, 47%, 23%) ,hsl(237, 49%, 15%)) no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.gameKeep{
+    display: flex;
+    width: 70vw;
+    aspect-ratio: 7/1;
+    flex-direction: row;
+    justify-content: space-between;
+    border:2px solid hsl(217, 16%, 45%);
+    padding: 0rem 0rem;
+}
+
+#textOptions{
+    font-size: 20px;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.scoreKeep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 10px;
+    padding: 2rem;
+}
+
+.pieces {
+    background-image: url('./images/bg-triangle.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    aspect-ratio: 1;
+    min-width: 30vw;
+    height: 40vh; /* Set a specific height for the "pieces" container */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.split{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; /* Use align-items: flex-end; to align to the bottom */
+    height: 100%; /* Set the height to 100% to fill the entire height of the container */
+}
+
+.circle{
+    background-color: white;
+    padding: 2rem;
+    border-radius: 50%;
+    border: 1rem solid;
+}
