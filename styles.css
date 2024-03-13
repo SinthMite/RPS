@@ -28,6 +28,9 @@ body{
     line-height: 2.5rem;
     font-weight: 700;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .scoreKeep{
@@ -41,10 +44,13 @@ body{
     border-radius: 1rem;
 }
 #score{
-
+    color: hsl(229, 64%, 46%);
+    font-size: small;
 }
 #number{
-    
+    color: hsl(229, 25%, 31%);
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 #pieces {
@@ -67,6 +73,16 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
+
+.pieceTwoDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+    font-weight: 700;
+}
+
 .split{
     display: flex;
     justify-content: space-between;
