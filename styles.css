@@ -32,7 +32,6 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-
 .scoreKeep{
     display: flex;
     flex-direction: column;
